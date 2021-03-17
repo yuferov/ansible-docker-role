@@ -1,0 +1,13 @@
+---
+#variables for docker installation role
+required_packages:
+  - yum-utils
+  - epel-release
+
+repo: https://download.docker.com/linux/centos/docker-ce.repo
+
+packages:
+  - docker-ce
+  - docker-ce-cli
+  - containerd.io
+  - python-pip
